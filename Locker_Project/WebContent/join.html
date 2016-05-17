@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>회원가입 페이지</title>
+</head>
+<body>
+	<form name=frm1 method=post action=Joinreq.jsp>
+		<table border="1" bordercolor="#A9A9A9" cellspacing="0" cellpadding="3">
+			<tr bgcolor="#A9A9A9">
+				<td colspan="2"><font color=white>◈회원가입</font></td>
+			</tr>
+			<tr bgcolor="#F5F5F5">
+				<td width=100>
+					<div align=right>
+						<font size=3 color=orange>*</font>아이디
+					</div>
+				</td>
+				<td width=400>
+					<input type=text name=user_id size=20 maxlength=12>
+				</td>
+			</tr>
+			<tr bgcolor="#F5F5F5">
+				<td>
+					<div align=right>
+						<font size=3 color=orange>*</font>비밀번호
+					</div>
+				</td>
+				<td>
+					<input type=password name=user_pw size=20 maxlength=8>
+				</td>
+			</tr>
+			<tr bgcolor="#F5F5F5">
+				<td>
+					<div align=right>
+						<font size=3 color=orange>*</font>이름
+					</div>
+				</td>
+				<td>
+					<input type=text name=user_name size=20 maxlength=8>
+				</td>
+			</tr>
+			<tr bgcolor="#F5F5F5">
+				<td>
+					<div align=right>
+						<font size=3 color=orange>*</font>전화번호
+					</div>
+				</td>
+				<td>
+					<input type=text name=user_phone size=20 maxlength=8>
+				</td>
+			</tr>
+			<tr bgcolor="#F5F5F5">
+				<td>
+					<div align=right>
+						<font size=3 color=orange>*</font>이메일
+					</div>
+				</td>
+				<td>
+					<input type=text name=user_email size=20 maxlength=8>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div align=center>
+						<input type=submit value="회원가입">
+						<input type=reset value="취소" onclick="window.location='/login.html'"> 
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
